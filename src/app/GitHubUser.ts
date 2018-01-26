@@ -1,7 +1,7 @@
 export class GitHubUser {
     login: string;
     id: number;
-    avatar_url: string;
+  avatar_url: string;
     gravatar_id: string;
     url: string;
     html_url: string;
@@ -29,5 +29,5 @@ export class GitHubUser {
     following: number;
     created_at: string;
     updated_at: string;
-  }
+  }*/
   
