@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GithubUserComponent } from './github-user/github-user.component';
+import { GithubService } from './github.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { GithubUserComponent } from './github-user/github-user.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
