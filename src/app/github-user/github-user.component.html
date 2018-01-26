@@ -1,3 +1,6 @@
-<p>
-  github-user works!
-</p>
+<div class='container'>
+  <h2>List of Github Users</h2>
+  <ul>
+    <li *ngFor='let user of users'>{{user.login}}</li>
+  </ul>
+</div>
